@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding-bottom: 5rem;
+  font-family: "Helvetica Neue", sans-serif;
+    font-size: 85%;
+  font-weight: 400;
+}
+
+article {
+  width: 85%;
+  margin: auto;
+  
+}
+
+h1 {
+  color: #282a35;
+  font-weight: 900;
+  font-size: 1.8rem;
+  margin-top: 3.5rem;
+  margin-bottom: 2rem;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+.right {
+  float: right;
+}
+
+
+span a {
+  color: #04aa6d;
+  text-decoration: none;
+}
+
+i {
+  font-weight: 300;
+}
+
+label, form+a, .show, span a, input[type="submit"] {
+  font-weight: 600;
+}
+
+input {
+  width: 100%;
+  height: 3rem;
+  border: 0.1rem solid #ddd;  
+  border-radius: 0.5rem;
+  margin-top: 0.3rem;
+  padding: 0.5rem 0.8rem;
+  font-size: 1.rem;
+}
+
+input:focus {
+border: none;
+ outline: 0.0625rem solid #80bdff;
+ box-shadow: 0 0 0 0.2rem rgb(0 123 255 / 25%);
+ 
+}
+
+input[type="submit"] {
+  background-color: #04aa6d;
+  color: #fff;
+  font-size: 1rem;
+  border: none;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  border-radius: 2rem;
+}
+
+input[type="submit"]:focus {
+  background-color: #03744b;
+  box-shadow: 0 0 0 0.2rem rgb(5 152 98 / 50%);
+}
+
+form+a {
+  color: #000;
+  width: 8.5rem;
+  display: block;
+  margin: auto;
+  text-align: center;
+  text-decoration: none;
+}
+
+footer, footer a {
+  text-align: center;
+  color: #909090;
+  margin-top: 12rem;
+}
+
+button {
+  position: fixed;
+  right: 5%;
+   bottom: 4%;
+  width: 3rem;
+  height: 3rem;
+  padding: 0.3rem;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 50%;
+  color: #fff;
+  background-color: #04aa6d;
+}
+button i {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  align-self: center;
+}
