@@ -1,54 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Login</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <article>
-    <h1>Log in</h1>
-    <form action="#" method="POST" novalidate>
-      
-      <section>
-        <span>
-          <label for="email">Email</label>
-          <span class="right">
-            Need an account? 
-            <a href="#">Sign up</a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <article>
+      <h1>Log in</h1>
+      <form action="#" method="POST" novalidate>
+        <section>
+          <span>
+            <label for="email">Email</label>
+            <span class="right">
+              Need an account?
+              <a href="#">Sign up</a>
+            </span>
           </span>
-        </span>
-        <input type="email" name="email" id="email" re>
-      </section>
-      
-      <section>
-        <span>
-          <label for="password">Password</label>
-          <span class="right show">
-            <i class="fa fa-eye"></i>
-            <span id="hide">Show</span> 
+          <input type="email" name="email" id="email" re />
+        </section>
+
+        <section>
+          <span>
+            <label for="password">Password</label>
+            <span class="right show">
+              <i class="fa fa-eye"></i>
+              <span id="hide">Show</span>
+            </span>
           </span>
-        </span>
-        <input type="password" name="password" id="password" required>
-      </section>
-      
-    <input type="submit" value="Log in">
-    </form>
-    <a href="#">Forget password?</a>
-    
-    <footer>
-      <small>&copy; 1999 - 2022 
-      <a href="#">W3schools.</a>
-      All rights reserved. 
-      <a href="#">Cookie policy</a> , <a href="#">Privacy</a> and 
-      <a href="#">Terms.</a>
-      </small>      
-    </footer>
-    <button><i class="fa-regular fa-circle-question"></i></button>
-  </article>
-  
-  <script src="script.js"></script>
-</body>
+          <input type="password" name="password" id="password" required />
+        </section>
+
+        <input type="submit" value="Log in" />
+      </form>
+      <a href="#">Forget password?</a>
+
+      <footer>
+        <small
+          >&copy; 1999 - 2022
+          <a href="#">W3schools.</a>
+          All rights reserved.
+          <a href="#">Cookie policy</a> , <a href="#">Privacy</a> and
+          <a href="#">Terms.</a>
+        </small>
+      </footer>
+      <button type="button" aria-label="Ask Question">
+        <i class="fa-regular fa-circle-question"></i>
+      </button>
+    </article>
+
+    <script src="script.js"></script>
+  </body>
 </html>
